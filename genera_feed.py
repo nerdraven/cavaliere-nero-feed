@@ -9,7 +9,7 @@ from pathlib import Path
 
 BASE = "https://www.virginradio.it/podcast/il-cavaliere-nero/"
 IMAGE = "https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvMjAyMC0wNS0xNF8xMF8xM18yNF8xNTM4NzI4NTE4MTkwLXBuZy0xNTg5NDQ0ODM5NDUycG5nLWlsX2NhdmFsaWVyZV9uZXJvLTEyMC5wbmc/-/0/0?r=51a1619f77c73c16ac8878115fd82337"
-OUT = Path.home() / "cavaliere-nero" / "feed.xml"
+OUT = Path(__file__).resolve().parent / "feed.xml"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 def fetch(url):
