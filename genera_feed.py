@@ -148,10 +148,14 @@ def data_puntata(item):
     )
 
     if not m:
-        return datetime.min
+        return datetime(2000, 1, 1)
 
     giorno, mese, anno = m.groups()
-    return datetime(int(anno), mesi[mese], int(giorno))
+
+    try:
+        return datetime(int(anno), mesi[mese], int(giorno))
+    except (ValueError, KeyError):
+        return datetime(2000, 1, 1)
 
 
 for link, (title, audio) in sorted(
