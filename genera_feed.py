@@ -255,7 +255,7 @@ def calcola_date(episodes):
             )
 
     return {
-        link: data_calcolate[indice]
+        link: date_calcolate[indice]
         for indice, (link, _) in enumerate(elementi)
     }
 
