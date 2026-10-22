@@ -1,4 +1,4 @@
-import re
+data_calcolateimport re
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -238,7 +238,7 @@ def calcola_date(episodes):
                 break
 
         if data_precedente is not None:
-            data_calcolate[indice] = data_precedente + timedelta(days=1)
+            date_calcolate[indice] = data_precedente + timedelta(days=1)
             print(
                 f"Data ricostruita: {elementi[indice][1][0]} "
                 f"-> {date_calcolate[indice]} "
