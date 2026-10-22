@@ -11,7 +11,15 @@
       <link>https://www.virginradio.it/podcast/il-cavaliere-nero/</link>
     </image>
     <itunes:image href="https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvMjAyMC0wNS0xNF8xMF8xM18yNF8xNTM4NzI4NTE4MTkwLXBuZy0xNTg5NDQ0ODM5NDUycG5nLWlsX2NhdmFsaWVyZV9uZXJvLTEyMC5wbmc/-/0/0?r=51a1619f77c73c16ac8878115fd82337" />
-    <lastBuildDate>Wed, 21 Oct 2026 11:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:51:05 +0000</lastBuildDate>
+    <item>
+      <title>Il Cavaliere Nero – 21 ottobre 2026</title>
+      <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-21-ottobre-2026/</link>
+      <guid isPermaLink="true">https://www.virginradio.it/podcast_item/il-cavaliere-nero-21-ottobre-2026/</guid>
+      <description>Il Cavaliere Nero – 21 ottobre 2026</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://podcast.mediaset.net/podcast/2026/10/21/49709328-e4f7-496f-a73b-6c569c7c1e98.mp3" length="0" type="audio/mpeg" />
+    </item>
     <item>
       <title>Il Cavaliere Nero – 20 Ottobre 2026</title>
       <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-20-ottobre-2026/</link>
@@ -195,14 +203,6 @@
       <description>Il Cavaliere Nero – 15 settembre 2026</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://podcast.mediaset.net/podcast/2026/9/15/c76e6d35-295c-4cec-82ff-67c7bc211063.mp3" length="0" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Il Cavaliere Nero – 14 settembre 2026</title>
-      <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-14-settembre-2026/</link>
-      <guid isPermaLink="true">https://www.virginradio.it/podcast_item/il-cavaliere-nero-14-settembre-2026/</guid>
-      <description>Il Cavaliere Nero – 14 settembre 2026</description>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://podcast.mediaset.net/podcast/2026/9/14/a0e473c0-4249-4cc2-af1f-7dea26577360.mp3" length="0" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
