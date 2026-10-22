@@ -143,7 +143,7 @@ def data_puntata(item):
     titolo = item[1][0].lower()
 
     m = re.search(
-        r"(\d{1,2})\s+([a-zàèéìòù]+)\s+(\d{4})",
+        r"(\d{1,2})\s+([a-zàèéìòù]+)(?:\s+(\d{4}))?",
         titolo
     )
 
@@ -153,7 +153,61 @@ def data_puntata(item):
     giorno, mese, anno = m.groups()
 
     try:
-        return datetime(int(anno), mesi[mese], int(giorno))
+        giorno = int(giorno)
+        mese_num = mesi[mese]
+
+        # Se l'anno è presente, usiamo la data originale.
+        if anno:
+            return datetime(int(anno), mese_num, giorno)
+
+        # Se manca l'anno, cerchiamo le date complete
+        # delle altre puntate per ricavare quello corretto.
+        date_note = []
+
+        for altro_link, (altro_titolo, altro_audio) in episodes.items():
+            if altro_link == item[0]:
+                continue
+
+            match = re.search(
+                r"(\d{1,2})\s+([a-zàèéìòù]+)\s+(\d{4})",
+                altro_titolo.lower()
+            )
+
+            if match:
+                g, m_nome, a = match.groups()
+
+                try:
+                    date_note.append(
+                        datetime(int(a), mesi[m_nome], int(g))
+                    )
+                except (ValueError, KeyError):
+                    pass
+
+        if not date_note:
+            return datetime(datetime.now().year, mese_num, giorno)
+
+        # Proviamo gli anni vicini a quelli delle puntate note.
+        anni = {
+            data.year + scarto
+            for data in date_note
+            for scarto in (-1, 0, 1)
+            if 1 <= data.year + scarto <= 9999
+        }
+
+        candidate = [
+            datetime(anno_candidato, mese_num, giorno)
+            for anno_candidato in anni
+        ]
+
+        # Scegliamo la data più vicina a una puntata datata.
+        return min(
+            candidate,
+            key=lambda data: min(
+                abs((data - nota).days)
+                for nota in date_note
+            )
+        )
+
     except (ValueError, KeyError):
         return datetime(2000, 1, 1)
 
