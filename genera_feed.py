@@ -315,8 +315,18 @@ for link, (title, audio) in episodi_ordinati:
 
     ET.SubElement(item, "description").text = title
 
+        data_episodio = date_episodi[link]
+
+    if not isinstance(data_episodio, type(datetime.now().date())):
+        print("ERRORE: tipo di data inatteso:", title, repr(data_episodio))
+        continue
+
+    if not 2 <= data_episodio.year <= 9999:
+        print("ERRORE: anno anomalo:", title, repr(data_episodio))
+        continue
+
     data = datetime.combine(
-        date_episodi[link],
+        data_episodio,
         datetime.min.time()
     ).astimezone()
 
