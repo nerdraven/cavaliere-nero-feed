@@ -315,7 +315,7 @@ for link, (title, audio) in episodi_ordinati:
 
     ET.SubElement(item, "description").text = title
 
-        data_episodio = date_episodi[link]
+    data_episodio = date_episodi[link]
 
     if not isinstance(data_episodio, type(datetime.now().date())):
         print("ERRORE: tipo di data inatteso:", title, repr(data_episodio))
