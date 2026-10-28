@@ -11,7 +11,16 @@
       <link>https://www.virginradio.it/podcast/il-cavaliere-nero/</link>
     </image>
     <itunes:image href="https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvVmlyZ2luX0RKX0FudG9uZWxsby1QaXJvc29fRHItRmVlbGdvb2RfQWxsZWdyZXR0aS0xNzMwNzIzNzUwMTY4cG5nLS5wbmc/-/0/0?r=917706321d39d77fc139f51276147c12" />
-    <lastBuildDate>Wed, 28 Oct 2026 07:49:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:42:09 +0000</lastBuildDate>
+    <item>
+      <title>Il Cavaliere Nero – 28 ottobre 2026</title>
+      <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-28-ottobre-2026/</link>
+      <guid isPermaLink="true">https://www.virginradio.it/podcast_item/il-cavaliere-nero-28-ottobre-2026/</guid>
+      <description>Il Cavaliere Nero – 28 ottobre 2026</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://podcast.mediaset.net/podcast/2026/10/28/feb2cead-57e1-460a-b59d-934a2dde7cff.mp3" length="0" type="audio/mpeg" />
+      <itunes:image href="https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvMjAyMC0wNS0xNF8xMF8xM18yNF8xNTM4NzI4NTE4MTkwLXBuZy0xNTg5NDQ0ODM5NDUycG5nLWlsX2NhdmFsaWVyZV9uZXJvLTEyMC5wbmc/-/0/0?r=51a1619f77c73c16ac8878115fd82337" />
+    </item>
     <item>
       <title>Il Cavaliere Nero – 27 ottobre 2026</title>
       <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-27-ottobre-2026/</link>
@@ -217,15 +226,6 @@
       <description>Il Cavaliere Nero – 22 settembre 2026</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://podcast.mediaset.net/podcast/2026/9/22/763003eb-f3f6-4521-8dd4-3f048b5689c3.mp3" length="0" type="audio/mpeg" />
-      <itunes:image href="https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvMjAyMC0wNS0xNF8xMF8xM18yNF8xNTM4NzI4NTE4MTkwLXBuZy0xNTg5NDQ0ODM5NDUycG5nLWlsX2NhdmFsaWVyZV9uZXJvLTEyMC5wbmc/-/0/0?r=51a1619f77c73c16ac8878115fd82337" />
-    </item>
-    <item>
-      <title>Il Cavaliere Nero – 21 settembre 2026</title>
-      <link>https://www.virginradio.it/podcast_item/il-cavaliere-nero-21-settembre-2026/</link>
-      <guid isPermaLink="true">https://www.virginradio.it/podcast_item/il-cavaliere-nero-21-settembre-2026/</guid>
-      <description>Il Cavaliere Nero – 21 settembre 2026</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://podcast.mediaset.net/podcast/2026/9/21/99090cb9-70e6-499e-9284-e1d7af168900.mp3" length="0" type="audio/mpeg" />
       <itunes:image href="https://img-api.cloud.mediaset.net/api/images/rd/v1/ita/aHR0cHM6Ly93d3cudmlyZ2lucmFkaW8uaXQvd3AtY29udGVudC91cGxvYWRzLzIwMjUvMTEvMjAyMC0wNS0xNF8xMF8xM18yNF8xNTM4NzI4NTE4MTkwLXBuZy0xNTg5NDQ0ODM5NDUycG5nLWlsX2NhdmFsaWVyZV9uZXJvLTEyMC5wbmc/-/0/0?r=51a1619f77c73c16ac8878115fd82337" />
     </item>
   </channel>
